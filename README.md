@@ -6,9 +6,9 @@ Planned work: run robustness checks, finish writing results and discussion of pa
 Libraries used: pandas, numpy, matplotlib, seaborn, statsmodels.
 
 ## Notebooks
-`01_data_cleaning.ipynb` - Loads and cleans four datasets, constructs import-weighted tariff variable, handles missing data, and merges into a single panel dataset.
-`02_data_exploration.ipynb` - Exploratory visualisations of tariff rates, trade, and GDP per capita trends.
-`03_regression_analysis.ipynb` - OLS regression replicating the Sachs & Warner specification with tariff rates replacing the openness dummy.
+`01_data_cleaning.ipynb` - Loads and cleans four datasets, constructs import-weighted tariff variable, handles missing data, and merges into a single panel dataset.  
+`02_data_exploration.ipynb` - Exploratory visualisations of tariff rates, trade, and GDP per capita trends.  
+`03_regression_analysis.ipynb` - OLS regression replicating the Sachs & Warner specification with tariff rates replacing the openness dummy.  
 
 ## Data
 Tariffs: World Bank's Integrated Trade Solution, UNCTAD TRAINS. Analysis uses weighted average tariffs, defined as import-value-weighted ad valorem averages by year.  
